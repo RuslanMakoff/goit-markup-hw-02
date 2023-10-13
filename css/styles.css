@@ -1,3 +1,11 @@
+button{
+    cursor: pointer;
+}
+
+.link {
+    text-decoration: none;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -12,12 +20,70 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
 }
- .studio{
+ span{
     color: #2e2f42;
  }
- .navi{
+ .menu-item{
+   
+    font-family: Roboto;
+    font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #404bbf;
+    list-style: none;
+    color: #2E2F42
  }
+ .adress{
+
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+ }
+ .hero{
+    width: 1440px;
+        height: 600px;
+        flex-shrink: 0;
+        background:#2E2F42;
+ }
+h1{
+        width: 496px;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+}
+button{
+    display: inline-flex;
+        padding: 16px 32px;
+        align-items: flex-start;
+        gap: 10px;
+        border-radius: 4px;
+            background: #4D5AE5;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+h3{
+    
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.4px;
+        color: #2E2F42;
+}
+.text{
+    
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+        color: #434455;
+}
