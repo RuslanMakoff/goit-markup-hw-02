@@ -1,9 +1,14 @@
-button{
-    cursor: pointer;
+
+.list {
+    list-style-type: none;
 }
 
 .link {
     text-decoration: none;
+}
+
+button {
+    cursor: pointer;
 }
 
 body {
@@ -23,7 +28,7 @@ body {
  span{
     color: #2e2f42;
  }
- .menu-item{
+ .menu-link{
    
     font-family: Roboto;
     font-size: 16px;
@@ -36,28 +41,31 @@ body {
  .adress{
 
         font-family: Roboto;
+        font-style: normal;
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
  }
- .hero{
+ .hero-page{
     width: 1440px;
         height: 600px;
         flex-shrink: 0;
+        width: 1440px;
+            height: 600px;
+            flex-shrink: 0;
         background:#2E2F42;
  }
 h1{
-        width: 496px;
-        text-align: center;
-        font-family: Roboto;
+    text-align: center;
         font-size: 56px;
         font-weight: 700;
-        line-height: 1.11;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         color: #FFFFFF;
-}
+        background: #2E2F42; 
+  }
 button{
     display: inline-flex;
         padding: 16px 32px;
@@ -67,7 +75,7 @@ button{
             background: #4D5AE5;
             box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
-h3{
+.feature{
     
         font-family: Roboto;
         font-size: 20px;
@@ -77,8 +85,7 @@ h3{
         letter-spacing: 0.4px;
         color: #2E2F42;
 }
-.text{
-    
+.feature-text{  
         font-family: Roboto;
         font-size: 16px;
         font-style: normal;
@@ -86,4 +93,32 @@ h3{
         line-height: 24px;
         letter-spacing: 0.32px;
         color: #434455;
+}
+.pafe-team{
+   
+        text-align: center;
+        font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+        color: #2E2F42;
+}
+.foto-team{
+    display: inline-flex;
+        padding-bottom: 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+}
+.name-tema{
+    text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
 }
