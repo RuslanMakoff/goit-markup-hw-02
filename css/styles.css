@@ -26,8 +26,8 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
 }
- span{
-    color: #2e2f42;
+ .logo-header{
+    color: #2e2f42; 
  }
  .menu-link{
    
@@ -66,12 +66,6 @@ color: #404bbf;
  /*-----------------HERO----------------*/
  
  .hero-page{
-    width: 1440px;
-    height: 600px;
-    flex-shrink: 0;
-    width: 1440px;
-    height: 600px;
-     flex-shrink: 0;
     background:#2E2F42;
  }
 .hero-text{
@@ -88,6 +82,7 @@ color: #404bbf;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    background-color: #4D5AE5;
     color: #FFFFFF;
 }
 .hero-button:hover,
@@ -96,21 +91,17 @@ background-color: #404BBF
 }
 
 .feature{
-    
-    font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.4px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 .feature-text{ 
-
-    font-family: Roboto;
     font-size: 16px;
     font-style: normal;
-    line-height: 24px;
-    letter-spacing: 0.32px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
@@ -141,7 +132,7 @@ background-color: #404BBF
     align-items: center;
     gap: 32px;
 }
-.name-tema{
+.name-team{
     text-align: center;
     font-size: 20px;
     font-weight: 500;
@@ -150,7 +141,45 @@ background-color: #404BBF
     color: #2E2F42;
 }
 .prof-team{
+    text-align: center;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 /*-----------------TEAM----------------*/
+
+/*-----------------PORTFOLIO----------------*/
+
+.page-portfolio{
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.text-portfolio{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.head-potfol{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+/*-----------------PORTFOLIO----------------*/
+
+/*-----------------FOOTER----------------*/
+
+.bottom-page{
+    background-color: #2E2F42;
+}
+.bottom-text{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
+.logo-footer{
+    color: #f4f4fd
+}
