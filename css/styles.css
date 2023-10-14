@@ -38,87 +38,94 @@ body {
     list-style: none;
     color: #2E2F42
  }
- .adress{
+ .menu-link:hover{
+    color: #404bbf
+ }
+ .menu-link:focus{
+    color: #404bbf
+ }
+ .adress-page{
 
-        font-family: Roboto;
-        font-style: normal;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
  }
  .hero-page{
     width: 1440px;
-        height: 600px;
-        flex-shrink: 0;
-        width: 1440px;
-            height: 600px;
-            flex-shrink: 0;
-        background:#2E2F42;
+    height: 600px;
+    flex-shrink: 0;
+    width: 1440px;
+    height: 600px;
+     flex-shrink: 0;
+    background:#2E2F42;
  }
 h1{
     text-align: center;
-        font-size: 56px;
-        font-weight: 700;
-        line-height: 1.07;
-        letter-spacing: 0.02em;
-        color: #FFFFFF;
-        background: #2E2F42; 
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    background: #2E2F42; 
   }
 button{
     display: inline-flex;
-        padding: 16px 32px;
-        align-items: flex-start;
-        gap: 10px;
-        border-radius: 4px;
-            background: #4D5AE5;
-            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .feature{
     
-        font-family: Roboto;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0.4px;
-        color: #2E2F42;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #2E2F42;
 }
-.feature-text{  
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0.32px;
-        color: #434455;
+.feature-text{ 
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    color: #434455;
 }
 .pafe-team{
    
-        text-align: center;
-        font-family: Roboto;
-        font-size: 36px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 40px;
-        letter-spacing: 0.72px;
-        text-transform: capitalize;
-        color: #2E2F42;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    color: #2E2F42;
 }
 .foto-team{
     display: inline-flex;
-        padding-bottom: 0px;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 32px;
+    padding-bottom: 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
 }
 .name-tema{
     text-align: center;
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
