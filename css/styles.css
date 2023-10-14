@@ -16,6 +16,7 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
+/*-----------------HEADER----------------*/
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -38,22 +39,32 @@ body {
     list-style: none;
     color: #2E2F42
  }
- .menu-link:hover{
-    color: #404bbf
- }
+ .menu-link:hover,
  .menu-link:focus{
     color: #404bbf
  }
- .adress-page{
+ /*-----------------HEADER----------------*/
+
+ /*-----------------ADRESS----------------*/
+ .adress-page {
+    font-style: normal;
+ }
+ .adress-link{
 
     font-family: Roboto;
-    font-style: normal;
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
  }
+ .adress-link:hover,
+ .adress-link:focus {
+color: #404bbf;
+ }
+ /*-----------------ADRESS----------------*/
+
+ /*-----------------HERO----------------*/
+ 
  .hero-page{
     width: 1440px;
     height: 600px;
@@ -63,7 +74,7 @@ body {
      flex-shrink: 0;
     background:#2E2F42;
  }
-h1{
+.hero-text{
     text-align: center;
     font-size: 56px;
     font-weight: 700;
@@ -72,20 +83,22 @@ h1{
     color: #FFFFFF;
     background: #2E2F42; 
   }
-button{
-    display: inline-flex;
-    padding: 16px 32px;
-    align-items: flex-start;
-    gap: 10px;
-    border-radius: 4px;
-    background: #4D5AE5;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+.hero-button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
 }
+.hero-button:hover,
+.hero-button:focus{
+background-color: #404BBF
+}
+
 .feature{
     
     font-family: Roboto;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px;
@@ -96,22 +109,29 @@ button{
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
-    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
     color: #434455;
 }
-.pafe-team{
+
+/*-----------------HERO----------------*/
+
+/*-----------------TEAM----------------*/
+.team{
+    background-color: #F4F4FD;
+}
+.page-team{
    
     text-align: center;
-    font-family: Roboto;
     font-size: 36px;
-    font-style: normal;
     font-weight: 700;
-    line-height: 40px;
-    letter-spacing: 0.72px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
+}
+.team-list{
+    background-color: #FFFFFF;
 }
 .foto-team{
     display: inline-flex;
@@ -129,3 +149,8 @@ button{
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
+.prof-team{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/*-----------------TEAM----------------*/
